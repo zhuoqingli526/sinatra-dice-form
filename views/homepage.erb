@@ -1,8 +1,12 @@
-<form action = "https://internationalaffairs.uchicago.edu/resources/taxes-ssn-and-itin/social-security-number?zebra=hello">
-  How many dice?
-  <input type="text" name="zebra">
+<h1>Dice Roll</h1>
+
+<form action = "/process_roll">
+  <label for="dice">Number of dice to roll?</label>
+  <input id="dice" type="text" name="dice">
   
-  How many sides?
+  <label for="side">How many sides per die? </label>
+  <input id="side" type="text" name="sides">
+  
 
   <button>Go</button>
 
